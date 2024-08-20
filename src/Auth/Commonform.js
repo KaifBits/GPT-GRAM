@@ -6,13 +6,13 @@ import Box from '../components/Box';
 const Commonform = () => {
   return (
     <>
-    <div class="relative flex  min-h-screen bg-gray-900 gap-4 mx-0">
-      
-      <div  className='absolute left-32'>
+   
+      <div className='flex justify-center bg-slate-800 items-center pr-6'>
+    
             <Outlet/>
-            </div>
+            
             <Box/>
-        </div>
+            </div>
     
     </>
   )

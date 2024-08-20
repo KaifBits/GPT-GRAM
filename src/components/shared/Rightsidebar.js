@@ -14,7 +14,7 @@ const Rightsidebar = () => {
     {/* per profile chatt */}
   <div id="chat" class='flex space-x-32' >
     <div class='flex space-x-3' >
-    <img  class="h-12 w-12 bg-white rounded-full " src='https://i.pinimg.com/originals/c6/f4/1c/c6f41cd6e175e0b661c62e002566a5f0.jpg'/>
+    <img  class="h-12 w-12 bg-white rounded-full " alt="" src='https://i.pinimg.com/originals/c6/f4/1c/c6f41cd6e175e0b661c62e002566a5f0.jpg'/>
     
     
     <div >
@@ -33,7 +33,7 @@ const Rightsidebar = () => {
       </div>
       <div class='flex space-x-32' >
     <div class='flex space-x-3' >
-    <img  class="h-12 w-12 bg-white rounded-full " src='https://png.pngtree.com/background/20230528/original/pngtree-pink-hair-girl-with-leaves-in-her-face-picture-image_2781987.jpg'/>
+    <img  class="h-12 w-12 bg-white rounded-full " alt="" src='https://png.pngtree.com/background/20230528/original/pngtree-pink-hair-girl-with-leaves-in-her-face-picture-image_2781987.jpg'/>
     
     
     <div >
@@ -52,7 +52,7 @@ const Rightsidebar = () => {
       </div>
       <div class='flex space-x-32' >
     <div class='flex space-x-3' >
-    <img  class="h-12 w-12 bg-white rounded-full " src='https://dthezntil550i.cloudfront.net/if/latest/if2009210442533670006569980/0678c0f3-af1d-406e-813c-e989cf7eac27.png'/>
+    <img  class="h-12 w-12 bg-white rounded-full " alt="" src='https://dthezntil550i.cloudfront.net/if/latest/if2009210442533670006569980/0678c0f3-af1d-406e-813c-e989cf7eac27.png'/>
     
     
     <div >
@@ -71,7 +71,7 @@ const Rightsidebar = () => {
       </div>
       <div id="chat" class='flex space-x-32' >
     <div class='flex space-x-3' >
-    <img  class="h-12 w-12 bg-white rounded-full " src='https://dthezntil550i.cloudfront.net/if/latest/if2009210442533670006569980/0678c0f3-af1d-406e-813c-e989cf7eac27.png'/>
+    <img  class="h-12 w-12 bg-white rounded-full " alt="" src='https://dthezntil550i.cloudfront.net/if/latest/if2009210442533670006569980/0678c0f3-af1d-406e-813c-e989cf7eac27.png'/>
     
     
     <div >
@@ -90,7 +90,7 @@ const Rightsidebar = () => {
       </div>
       <div id="chat" class='flex space-x-32' >
     <div class='flex space-x-3' >
-    <img  class="h-12 w-12 bg-white rounded-full " src='https://i.pinimg.com/originals/c6/f4/1c/c6f41cd6e175e0b661c62e002566a5f0.jpg'/>
+    <img  class="h-12 w-12 bg-white rounded-full " alt="" src='https://i.pinimg.com/originals/c6/f4/1c/c6f41cd6e175e0b661c62e002566a5f0.jpg'/>
     
     
     <div >

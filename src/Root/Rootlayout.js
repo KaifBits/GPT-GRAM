@@ -7,19 +7,12 @@ import Rightsidebar from '../components/shared/Rightsidebar';
 const Rootlayout = () => {
   return (
    
+<>
+<Sidebar/>
+<Outlet/>
+<Rightsidebar/>
     
-    <div className='min-h-screen w-full bg-black flex'>
-
-    <div>
-        <Sidebar/>
-        </div>
-    
-    <Outlet/>
-   
-    
-      <Rightsidebar/>
-    
-</div>
+</>
 
 
   )

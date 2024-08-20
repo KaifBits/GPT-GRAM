@@ -43,13 +43,14 @@ console.log("img upload successfully");
 
   return (
     
-    <div className='text-black bg-black mx-auto px-0 h-auto w-1/2 flex flex-col space-y-3 justify-center  '>
-      <div class="p-4 ">
-      <form>
-    <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 space-y-4">
+
+    <div className="flex items-center justify-center min-h-screen ">
+      <div className="p-4 w-2/6 h-auto border-2 border-black border-dashed rounded-lg dark:border-gray-700 space-y-4  justify-center ">
+      <form  >
+    <div className='space-y-4 h-full w-full'>
       {file ?<div className='flex justify-center' onClick={()=>ref.current.click()}>
 
-        <img src={URL.createObjectURL(file)}/>
+        <img className='h-3/4 w-1/2 object-contain ' alt="logo" src={URL.createObjectURL(file)}/>
       </div>:
        
        <div onClick={()=>ref.current.click()}class="flex items-center justify-center h-96 mb-4 rounded bg-gray-50 dark:bg-gray-800">
@@ -74,14 +75,15 @@ console.log("img upload successfully");
        <div className='text-white flex justify-center'>
         Enter Caption
        </div>
-       <div className='text-white'>{msg}</div>
+       <div className='text-black'>{msg}</div>
        <button  onClick={handle} className='text-white m-auto w-20 flex justify-center bg-slate-500 border-red-600'>Upload</button>
        </div>
        
        </form>
     </div>
+    </div>
    
- </div>
+ 
  
  
  

@@ -1,5 +1,5 @@
 
-import './App.css';
+
 import Commonform from './Auth/Commonform';
 import Singin from './Auth/form/Singin';
 import Singup from './Auth/form/Singup';
@@ -8,6 +8,7 @@ import { Route,Routes } from 'react-router-dom';
 import Home from './Root/Home';
 import Rootlayout from './Root/Rootlayout';
 import Createpost from './components/Createpost';
+import Profile from './components/Profile';
 
 function App() {
   
@@ -24,8 +25,9 @@ function App() {
         <Route element={<Rootlayout/>}>
         <Route path="/home" element={<Home/>}/>
         <Route path="/post" element={<Createpost/>}/>
-      
-        </Route>
+        <Route path="/profile" element={<Profile/>}/>
+      </Route>
+     
 
        </Routes>
 

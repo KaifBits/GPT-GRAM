@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 
@@ -35,14 +35,14 @@ const Singin = () => {
 
   return (
     
-    <div>
+    <>
        
-        <section class="bg-gray dark:bg-gray-900">
-    <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-        <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-white dark:text-white">
+        <section class="bg-slate-800 w-1/2  ">
+    <div class="flex  flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+        <Link to="#" class="flex items-center mb-6 text-2xl font-semibold text-white dark:text-white">
             
-            Kaifogram    
-        </a>
+        GPT-GRaM     
+        </Link>
         <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
             <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
                 <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
@@ -66,7 +66,7 @@ const Singin = () => {
                               <label for="remember" class="text-gray-500 dark:text-gray-300">Remember me</label>
                             </div>
                         </div>
-                        <a href="#" class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password?</a>
+                        <Link to="#" class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password?</Link>
                     </div>
                     <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Sign in</button>
                     <p class="text-sm font-light text-gray-500 dark:text-gray-400">
@@ -78,7 +78,7 @@ const Singin = () => {
         </div>
     </div>
   </section>
-  </div>
+  </>
   )
 }
 
